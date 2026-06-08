@@ -6,7 +6,7 @@
       "hero.tag": "New",
       "hero.badge": "All-in-one shop software",
       "hero.title": "Everything your shop needs, in one place.",
-      "hero.desc": "Sell at the counter, manage stock, print receipts, and run your online store — from a single dashboard.",
+      "hero.desc": "Sell at the counter, manage stock, print receipts, and run your online store from a single dashboard.",
       "hero.cta1": "Live demo",
       "hero.cta2": "See features",
       "features.title": "Everything your shop needs",
