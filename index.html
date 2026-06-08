@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>LitePOS — POS, inventory, and storefront for one shop</title>
+<title>LitePOS POS, inventory, and storefront for one shop</title>
 <meta name="description" content="LitePOS runs the till, tracks stock, prints receipts, and serves an online store from the same catalog. Built on Laravel 12." />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -71,14 +71,14 @@
   <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
     <div class="lg:col-span-5">
       <div class="inline-flex items-center gap-2 text-xs text-muted mb-3">
-        <span class="px-2 py-0.5 rounded-md border border-border bg-surface">v1.0 MVP</span>
-        <span data-i18n="hero.badge">Single-shop POS + storefront</span>
+        <span class="px-2 py-0.5 rounded-md border border-border bg-surface" data-i18n="hero.tag">New</span>
+        <span data-i18n="hero.badge">All-in-one shop software</span>
       </div>
       <h1 class="text-3xl md:text-4xl font-semibold tracking-tight mb-3 leading-[1.1]" data-i18n="hero.title">
-        POS, inventory, and a storefront for one shop.
+        Everything your shop needs, in one place.
       </h1>
       <p class="text-muted text-sm md:text-base mb-5" data-i18n="hero.desc">
-        LitePOS runs the till, tracks stock, prints receipts, and serves an online store from the same catalog. Built on Laravel 12.
+        Sell at the counter, manage stock, print receipts, and run your online store  from a single dashboard.
       </p>
       <div class="flex flex-wrap gap-2">
         <a href="https://pos.fazleyrabbi.xyz/" target="_blank" rel="noopener noreferrer" class="btn btn-primary" data-i18n="hero.cta1">Live demo</a>
@@ -118,8 +118,8 @@
 <section id="features" class="max-w-6xl mx-auto px-6 py-8">
   <div class="mb-5 flex items-end justify-between flex-wrap gap-3">
     <div>
-      <h2 class="text-2xl font-semibold tracking-tight" data-i18n="features.title">Everything a single shop needs</h2>
-      <p class="text-muted text-sm mt-1" data-i18n="features.sub">Modules shipping in the MVP — no SaaS bloat.</p>
+      <h2 class="text-2xl font-semibold tracking-tight" data-i18n="features.title">Everything your shop needs</h2>
+      <p class="text-muted text-sm mt-1" data-i18n="features.sub">Built for small shops and growing businesses.</p>
     </div>
   </div>
   <div class="grid grid-cols-1 md:grid-cols-3 gap-2" id="features-grid"></div>
@@ -132,14 +132,14 @@
       <div class="flex items-center gap-2 text-xs text-muted mb-2">
         <i data-lucide="receipt" class="w-3.5 h-3.5"></i> <span data-i18n="pos.label">POS TERMINAL</span>
       </div>
-      <h3 class="text-lg font-semibold mb-2" data-i18n="pos.title">Fast at the till</h3>
+      <h3 class="text-lg font-semibold mb-2" data-i18n="pos.title">Fast at the counter</h3>
       <ul class="space-y-1.5 text-sm" id="pos-bullets"></ul>
     </div>
     <div class="card p-5">
       <div class="flex items-center gap-2 text-xs text-muted mb-2">
         <i data-lucide="shopping-cart" class="w-3.5 h-3.5"></i> <span data-i18n="sf.label">STOREFRONT</span>
       </div>
-      <h3 class="text-lg font-semibold mb-2" data-i18n="sf.title">Sell online, same catalog</h3>
+      <h3 class="text-lg font-semibold mb-2" data-i18n="sf.title">Sell online too</h3>
       <ul class="space-y-1.5 text-sm" id="storefront-bullets"></ul>
     </div>
   </div>
@@ -149,7 +149,7 @@
 <section class="max-w-6xl mx-auto px-6 py-8">
   <div class="mb-4 flex items-center gap-2">
     <i data-lucide="palette" class="w-4 h-4 text-muted"></i>
-    <h2 class="text-2xl font-semibold tracking-tight" data-i18n="themes.title">Five storefront themes</h2>
+    <h2 class="text-2xl font-semibold tracking-tight" data-i18n="themes.title">Pick a look for your shop</h2>
   </div>
   <div class="grid grid-cols-2 md:grid-cols-5 gap-2" id="themes-grid"></div>
 </section>
@@ -160,17 +160,17 @@
     <div class="card p-5">
       <i data-lucide="printer" class="w-5 h-5 text-accent mb-2"></i>
       <h3 class="text-base font-semibold mb-1" data-i18n="strip.receipts.title">Receipts & invoices</h3>
-      <p class="text-sm text-muted" data-i18n="strip.receipts.desc">Thermal receipts and professional PDF invoices with font fallbacks.</p>
+      <p class="text-sm text-muted" data-i18n="strip.receipts.desc">Print receipts or send invoices to customers.</p>
     </div>
     <div class="card p-5">
       <i data-lucide="credit-card" class="w-5 h-5 text-accent mb-2"></i>
-      <h3 class="text-base font-semibold mb-1" data-i18n="strip.pay.title">Payment gateways</h3>
-      <p class="text-sm text-muted" data-i18n="strip.pay.desc">Stripe, SSLCommerz, and bKash — switch per store from settings.</p>
+      <h3 class="text-base font-semibold mb-1" data-i18n="strip.pay.title">Multiple payment options</h3>
+      <p class="text-sm text-muted" data-i18n="strip.pay.desc">Accept bKash, cards, and online payments  your choice.</p>
     </div>
     <div class="card p-5">
       <i data-lucide="keyboard" class="w-5 h-5 text-accent mb-2"></i>
-      <h3 class="text-base font-semibold mb-1" data-i18n="strip.cashier.title">Cashier-friendly POS</h3>
-      <p class="text-sm text-muted" data-i18n="strip.cashier.desc">Keyboard nav, fullscreen mode, held sales, and quick search.</p>
+      <h3 class="text-base font-semibold mb-1" data-i18n="strip.cashier.title">Made for cashiers</h3>
+      <p class="text-sm text-muted" data-i18n="strip.cashier.desc">Designed for speed  quick search, hold sales, and full-screen mode.</p>
     </div>
   </div>
 </section>
@@ -179,7 +179,7 @@
 <section id="pricing" class="max-w-6xl mx-auto px-6 py-8">
   <div class="text-center mb-5">
     <h2 class="text-2xl font-semibold tracking-tight" data-i18n="pricing.title">Pricing</h2>
-    <p class="text-muted text-sm mt-1" data-i18n="pricing.sub">Pay once. Add ongoing dev support only if you need it.</p>
+    <p class="text-muted text-sm mt-1" data-i18n="pricing.sub">Buy once. Use forever. Support only when you need it.</p>
     <div class="inline-flex items-center gap-0 mt-3 p-0.5 rounded-md border border-border bg-surface">
       <button type="button" data-curr="BDT" class="px-3 py-1 text-xs font-medium rounded transition-colors">BDT ৳</button>
       <button type="button" data-curr="USD" class="px-3 py-1 text-xs font-medium rounded transition-colors">USD $</button>
@@ -187,13 +187,8 @@
   </div>
   <div class="grid grid-cols-1 md:grid-cols-3 gap-2 max-w-5xl mx-auto" id="plans-grid"></div>
   <p class="text-center text-xs text-muted mt-4" data-i18n="pricing.note">
-    Dev support is optional. Starter tier shown — actual rate depends on workload and scope, agreed upfront.
+    Support is optional  only pay if you need help. Rate depends on the work, agreed upfront.
   </p>
-</section>
-
-<!-- Tech stack -->
-<section class="max-w-6xl mx-auto px-6 py-6">
-  <div class="flex flex-wrap items-center justify-center gap-2 text-xs text-muted" id="techstack"></div>
 </section>
 
 <!-- Contact -->
@@ -222,305 +217,6 @@
   </div>
 </footer>
 
-<script>
-  const i18n = {
-    en: {
-      "nav.features": "Features",
-      "nav.storefront": "Storefront",
-      "nav.pricing": "Pricing",
-      "hero.badge": "Single-shop POS + storefront",
-      "hero.title": "POS, inventory, and a storefront for one shop.",
-      "hero.desc": "LitePOS runs the till, tracks stock, prints receipts, and serves an online store from the same catalog. Built on Laravel 12.",
-      "hero.cta1": "Live demo",
-      "hero.cta2": "See features",
-      "features.title": "Everything a single shop needs",
-      "features.sub": "Modules shipping in the MVP — no SaaS bloat.",
-      "pos.label": "POS TERMINAL",
-      "pos.title": "Fast at the till",
-      "sf.label": "STOREFRONT",
-      "sf.title": "Sell online, same catalog",
-      "themes.title": "Five storefront themes",
-      "strip.receipts.title": "Receipts & invoices",
-      "strip.receipts.desc": "Thermal receipts and professional PDF invoices with font fallbacks.",
-      "strip.pay.title": "Payment gateways",
-      "strip.pay.desc": "Stripe, SSLCommerz, and bKash — switch per store from settings.",
-      "strip.cashier.title": "Cashier-friendly POS",
-      "strip.cashier.desc": "Keyboard nav, fullscreen mode, held sales, and quick search.",
-      "pricing.title": "Pricing",
-      "pricing.sub": "Pay once. Add ongoing dev support only if you need it.",
-      "pricing.note": "Dev support is optional. Starter tier shown — actual rate depends on workload and scope, agreed upfront.",
-      "contact.title": "Get in touch",
-      "contact.portfolio": "More work at",
-      "footer.copy": "© 2026 LitePOS",
-      "footer.by": "Built by",
-    },
-    bn: {
-      "nav.features": "ফিচার",
-      "nav.storefront": "স্টোরফ্রন্ট",
-      "nav.pricing": "মূল্য",
-      "hero.badge": "এক দোকানের পিওএস + স্টোরফ্রন্ট",
-      "hero.title": "এক দোকানের জন্য পিওএস, ইনভেন্টরি ও স্টোরফ্রন্ট।",
-      "hero.desc": "LitePOS বিক্রয় চালায়, স্টক ট্র্যাক করে, রসিদ ছাপায়, এবং একই ক্যাটালগ থেকে অনলাইন স্টোরও চালায়। Laravel 12-এ তৈরি।",
-      "hero.cta1": "লাইভ ডেমো",
-      "hero.cta2": "ফিচার দেখুন",
-      "features.title": "এক দোকানের সব প্রয়োজন এক জায়গায়",
-      "features.sub": "MVP-তে যা যা আছে — অপ্রয়োজনীয় কিছু নেই।",
-      "pos.label": "পিওএস টার্মিনাল",
-      "pos.title": "বিক্রয় দ্রুত",
-      "sf.label": "স্টোরফ্রন্ট",
-      "sf.title": "একই ক্যাটালগে অনলাইন বিক্রি",
-      "themes.title": "পাঁচটি স্টোরফ্রন্ট থিম",
-      "strip.receipts.title": "রসিদ ও ইনভয়েস",
-      "strip.receipts.desc": "থার্মাল রসিদ এবং ফন্ট ফলব্যাকসহ প্রফেশনাল PDF ইনভয়েস।",
-      "strip.pay.title": "পেমেন্ট গেটওয়ে",
-      "strip.pay.desc": "Stripe, SSLCommerz এবং bKash — দোকান অনুযায়ী সেটিংস থেকে বদলান।",
-      "strip.cashier.title": "ক্যাশিয়ার-বান্ধব পিওএস",
-      "strip.cashier.desc": "কীবোর্ড নেভিগেশন, ফুলস্ক্রিন মোড, হোল্ড সেল এবং দ্রুত সার্চ।",
-      "pricing.title": "মূল্য",
-      "pricing.sub": "একবার কিনুন। প্রয়োজন হলে চলমান ডেভ সাপোর্ট নিন।",
-      "pricing.note": "ডেভ সাপোর্ট ঐচ্ছিক। স্টার্টার টিয়ার দেখানো হয়েছে — প্রকৃত রেট কাজের পরিধি অনুযায়ী আগে থেকে আলোচনা করে ঠিক হবে।",
-      "contact.title": "যোগাযোগ করুন",
-      "contact.portfolio": "আরও কাজ দেখুন",
-      "footer.copy": "© ২০২৬ LitePOS",
-      "footer.by": "তৈরি করেছেন",
-    },
-  };
-
-  const data = {
-    en: {
-      features: [
-        { title: "POS Terminal", desc: "Quick product search, barcode scan, keyboard shortcuts, and fullscreen sales mode.", icon: "zap" },
-        { title: "Products & Variants", desc: "Variable products, brands, categories, barcodes, and per-product pricing.", icon: "boxes" },
-        { title: "Stock Management", desc: "Stock tracking, adjustments, low-stock alerts, and purchase-driven updates.", icon: "warehouse" },
-        { title: "Purchases & Suppliers", desc: "Purchase orders, supplier ledger, and subtotal-aware purchase entries.", icon: "truck" },
-        { title: "Sales & Returns", desc: "Sales, refunds with stock reversal, customer credit, and invoice history.", icon: "rotate-ccw" },
-        { title: "Customers", desc: "Customer profiles, order history, and shop login with cart preservation.", icon: "users" },
-        { title: "Online Storefront", desc: "Five themes (Fresh, Nova, Style, Archive, Minimal) with shared catalog.", icon: "shopping-cart" },
-        { title: "Reports", desc: "Unified report builder for sales, purchases, P&L. CSV and PDF export.", icon: "bar-chart-3" },
-        { title: "Payments", desc: "Stripe, SSLCommerz, and bKash. Configure gateways from store settings.", icon: "credit-card" },
-      ],
-      posBullets: [
-        "Keyboard shortcuts + fullscreen POS",
-        "Barcode scan & quick product search",
-        "Held sales and multi-cashier sessions",
-        "Thermal receipt + PDF invoice",
-        "Currency symbol respects store setting",
-      ],
-      storefrontBullets: [
-        "Five swappable themes",
-        "Product cards with quick-add",
-        "Login-gated checkout, cart preserved",
-        "Per-page selector, sort persistence",
-        "My Orders with status timeline",
-      ],
-      themes: [
-        { name: "Fresh", note: "Wide layout, banner hero" },
-        { name: "Nova", note: "Modern marketplace" },
-        { name: "Style", note: "Editorial fashion" },
-        { name: "Archive", note: "Minimal catalog" },
-        { name: "Minimal", note: "Clean, trust-first" },
-      ],
-      plans: [
-        { name: "Starter", tagline: "Get started.", feats: ["Full source code", "2 storefront themes", "Self-host with Docker", "Free updates within v1.x"], ctaLabel: "Buy Starter" },
-        { name: "Full", tagline: "Everything, owned.", feats: ["Full source code", "All 5 storefront themes", "Self-host with Docker", "Free updates within v1.x"], ctaLabel: "Buy Full" },
-        { name: "Dev support", tagline: "Hire me as your dev. Scales with scope.", feats: ["Starter retainer for small shops", "Higher tiers for active dev work", "Custom features & integrations", "Quote on requirements"], ctaLabel: "Hire me" },
-      ],
-      tech: ["Laravel 12", "PHP 8.2+", "MySQL 8", "Tailwind", "Alpine.js", "Docker"],
-      popularBadge: "MOST POPULAR",
-    },
-    bn: {
-      features: [
-        { title: "পিওএস টার্মিনাল", desc: "দ্রুত পণ্য সার্চ, বারকোড স্ক্যান, কীবোর্ড শর্টকাট ও ফুলস্ক্রিন সেলস মোড।", icon: "zap" },
-        { title: "পণ্য ও ভ্যারিয়েন্ট", desc: "ভ্যারিয়েবল পণ্য, ব্র্যান্ড, ক্যাটাগরি, বারকোড এবং প্রতি পণ্যের মূল্য।", icon: "boxes" },
-        { title: "স্টক ম্যানেজমেন্ট", desc: "স্টক ট্র্যাকিং, এডজাস্টমেন্ট, লো-স্টক অ্যালার্ট এবং পারচেজ-ভিত্তিক আপডেট।", icon: "warehouse" },
-        { title: "পারচেজ ও সাপ্লায়ার", desc: "পারচেজ অর্ডার, সাপ্লায়ার লেজার এবং সাবটোটাল-সচেতন পারচেজ এন্ট্রি।", icon: "truck" },
-        { title: "সেলস ও রিটার্ন", desc: "সেলস, স্টক রিভার্সালসহ রিফান্ড, কাস্টমার ক্রেডিট এবং ইনভয়েস হিস্ট্রি।", icon: "rotate-ccw" },
-        { title: "কাস্টমার", desc: "কাস্টমার প্রোফাইল, অর্ডার হিস্ট্রি এবং কার্ট সংরক্ষণসহ শপ লগইন।", icon: "users" },
-        { title: "অনলাইন স্টোরফ্রন্ট", desc: "পাঁচটি থিম (Fresh, Nova, Style, Archive, Minimal) — একই ক্যাটালগ।", icon: "shopping-cart" },
-        { title: "রিপোর্ট", desc: "সেলস, পারচেজ, P&L-এর ইউনিফায়েড রিপোর্ট বিল্ডার। CSV ও PDF এক্সপোর্ট।", icon: "bar-chart-3" },
-        { title: "পেমেন্ট", desc: "Stripe, SSLCommerz ও bKash। স্টোর সেটিংস থেকে গেটওয়ে কনফিগার।", icon: "credit-card" },
-      ],
-      posBullets: [
-        "কীবোর্ড শর্টকাট + ফুলস্ক্রিন পিওএস",
-        "বারকোড স্ক্যান ও দ্রুত পণ্য সার্চ",
-        "হোল্ড সেল এবং মাল্টি-ক্যাশিয়ার সেশন",
-        "থার্মাল রসিদ + PDF ইনভয়েস",
-        "স্টোর সেটিং অনুযায়ী মুদ্রা প্রতীক",
-      ],
-      storefrontBullets: [
-        "পাঁচটি পরিবর্তনযোগ্য থিম",
-        "কুইক-অ্যাডসহ প্রোডাক্ট কার্ড",
-        "লগইন-নির্ভর চেকআউট, কার্ট সংরক্ষিত",
-        "পার-পেজ সিলেক্টর, সর্ট পার্সিস্টেন্স",
-        "স্ট্যাটাস টাইমলাইনসহ My Orders",
-      ],
-      themes: [
-        { name: "Fresh", note: "ওয়াইড লেআউট, ব্যানার হিরো" },
-        { name: "Nova", note: "মডার্ন মার্কেটপ্লেস" },
-        { name: "Style", note: "এডিটোরিয়াল ফ্যাশন" },
-        { name: "Archive", note: "মিনিমাল ক্যাটালগ" },
-        { name: "Minimal", note: "ক্লিন, ট্রাস্ট-ফার্স্ট" },
-      ],
-      plans: [
-        { name: "স্টার্টার", tagline: "শুরু করুন।", feats: ["সম্পূর্ণ সোর্স কোড", "২টি স্টোরফ্রন্ট থিম", "ডকার দিয়ে সেলফ-হোস্ট", "v1.x-এ ফ্রি আপডেট"], ctaLabel: "স্টার্টার কিনুন" },
-        { name: "ফুল", tagline: "সবকিছু, আপনার মালিকানায়।", feats: ["সম্পূর্ণ সোর্স কোড", "৫টি স্টোরফ্রন্ট থিম", "ডকার দিয়ে সেলফ-হোস্ট", "v1.x-এ ফ্রি আপডেট"], ctaLabel: "ফুল কিনুন" },
-        { name: "ডেভ সাপোর্ট", tagline: "আমাকে ডেভ হিসেবে নিন। কাজ অনুযায়ী বাড়ে।", feats: ["ছোট দোকানের জন্য স্টার্টার রিটেইনার", "সক্রিয় কাজের জন্য উচ্চ টিয়ার", "কাস্টম ফিচার ও ইন্টিগ্রেশন", "প্রয়োজন অনুযায়ী কোট"], ctaLabel: "আমাকে নিন" },
-      ],
-      tech: ["Laravel 12", "PHP 8.2+", "MySQL 8", "Tailwind", "Alpine.js", "Docker"],
-      popularBadge: "সবচেয়ে জনপ্রিয়",
-    },
-  };
-
-  const prices = [
-    { USD: { price: "$49", per: " once" }, BDT: { price: "৳5,500", per: " once" } },
-    { USD: { price: "$99", per: " once" }, BDT: { price: "৳10,900", per: " once" } },
-    { USD: { price: "From $25", per: "/mo" }, BDT: { price: "From ৳2,500", per: "/mo" } },
-  ];
-  const pricesBn = [
-    { USD: { price: "$49", per: " একবার" }, BDT: { price: "৳৫,৫০০", per: " একবার" } },
-    { USD: { price: "$99", per: " একবার" }, BDT: { price: "৳১০,৯০০", per: " একবার" } },
-    { USD: { price: "From $25", per: "/মাস" }, BDT: { price: "৳২,৫০০ থেকে", per: "/মাস" } },
-  ];
-  const planMeta = [
-    { cta: "outline" },
-    { cta: "primary", hot: true },
-    { cta: "outline" },
-  ];
-
-  let lang = "en", currency = "BDT";
-
-  const esc = (s) => String(s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
-
-  function applyStaticI18n() {
-    document.documentElement.lang = lang;
-    document.querySelectorAll("[data-i18n]").forEach(el => {
-      const k = el.dataset.i18n;
-      if (i18n[lang][k] != null) el.textContent = i18n[lang][k];
-    });
-    document.querySelectorAll("[data-lang]").forEach(b => {
-      const active = b.dataset.lang === lang;
-      b.style.background = active ? "var(--color-accent)" : "transparent";
-      b.style.color = active ? "#fff" : "var(--color-muted)";
-    });
-  }
-
-  function renderAll() {
-    const d = data[lang];
-
-    document.getElementById("features-grid").innerHTML = d.features.map(f => `
-      <div class="card p-5">
-        <div class="flex items-center gap-2.5 mb-2">
-          <div class="p-1.5 rounded-md bg-accent-soft text-accent"><i data-lucide="${f.icon}" class="w-4 h-4"></i></div>
-          <h3 class="text-sm font-semibold">${esc(f.title)}</h3>
-        </div>
-        <p class="text-sm text-muted leading-relaxed">${esc(f.desc)}</p>
-      </div>
-    `).join("");
-
-    const bulletItem = (i) => `
-      <li class="flex items-center gap-2 text-foreground/80">
-        <i data-lucide="check-circle-2" class="w-4 h-4 text-accent shrink-0"></i>${esc(i)}
-      </li>`;
-    document.getElementById("pos-bullets").innerHTML = d.posBullets.map(bulletItem).join("");
-    document.getElementById("storefront-bullets").innerHTML = d.storefrontBullets.map(bulletItem).join("");
-
-    const themeImgs = ["themes/fresh.png", "themes/nova.png", "themes/style.png", "themes/archive.png", "themes/minimal.png"];
-    document.getElementById("themes-grid").innerHTML = d.themes.map((t, i) => `
-      <div class="card p-2">
-        <div class="relative aspect-[4/3] rounded-md border border-border overflow-hidden bg-zinc-50 mb-2">
-          <img src="${themeImgs[i]}" alt="${esc(t.name)} theme preview" loading="lazy" class="absolute inset-0 w-full h-full object-cover object-top" />
-        </div>
-        <p class="text-sm font-semibold">${esc(t.name)}</p>
-        <p class="text-xs text-muted">${esc(t.note)}</p>
-      </div>
-    `).join("");
-
-    document.getElementById("techstack").innerHTML = d.tech.map(t =>
-      `<span class="px-2.5 py-1 rounded-md border border-border bg-surface">${esc(t)}</span>`
-    ).join("");
-
-    renderPlans();
-    lucide.createIcons();
-  }
-
-  function renderPlans() {
-    const d = data[lang];
-    const priceTable = lang === "bn" ? pricesBn : prices;
-    document.getElementById("plans-grid").innerHTML = d.plans.map((p, i) => {
-      const m = planMeta[i];
-      const { price, per } = priceTable[i][currency];
-      return `
-      <div class="card p-5" ${m.hot ? 'style="border-color: var(--color-accent);"' : ""}>
-        ${m.hot ? `<div class="text-[10px] font-semibold text-accent mb-1 tracking-wider">${esc(d.popularBadge)}</div>` : ""}
-        <h3 class="text-base font-semibold">${esc(p.name)}</h3>
-        <p class="text-xs text-muted mt-0.5">${esc(p.tagline)}</p>
-        <div class="text-2xl font-semibold mt-2 mb-3">
-          ${esc(price)}<span class="text-sm text-muted font-normal">${esc(per)}</span>
-        </div>
-        <ul class="space-y-1.5 mb-4 text-sm text-foreground/80">
-          ${p.feats.map(f => `<li class="flex items-center gap-2"><i data-lucide="check-circle-2" class="w-3.5 h-3.5 text-accent shrink-0"></i>${esc(f)}</li>`).join("")}
-        </ul>
-        <a href="mailto:fazley111@gmail.com" class="btn btn-${m.cta}" style="width:100%;">${esc(p.ctaLabel)}</a>
-      </div>`;
-    }).join("");
-    document.querySelectorAll("[data-curr]").forEach(b => {
-      const active = b.dataset.curr === currency;
-      b.style.background = active ? "var(--color-accent)" : "transparent";
-      b.style.color = active ? "#fff" : "var(--color-muted)";
-    });
-  }
-
-  function setLang(l) { lang = l; applyStaticI18n(); renderAll(); }
-  function setCurrency(c) { currency = c; renderPlans(); lucide.createIcons(); }
-
-  document.querySelectorAll("[data-lang]").forEach(b =>
-    b.addEventListener("click", () => setLang(b.dataset.lang))
-  );
-  document.querySelectorAll("[data-curr]").forEach(b =>
-    b.addEventListener("click", () => setCurrency(b.dataset.curr))
-  );
-
-  applyStaticI18n();
-  renderAll();
-
-  // Hero slider
-  (function () {
-    const root = document.getElementById("slider");
-    if (!root) return;
-    const slides = Array.from(root.querySelectorAll(".slide"));
-    const dotsWrap = root.querySelector(".dots");
-    let idx = 0, timer;
-
-    slides.forEach((_, i) => {
-      const d = document.createElement("button");
-      d.type = "button";
-      d.setAttribute("aria-label", `Slide ${i + 1}`);
-      d.className = "w-1.5 h-1.5 rounded-full bg-white/60 border border-zinc-300 transition-all";
-      d.addEventListener("click", () => go(i));
-      dotsWrap.appendChild(d);
-    });
-    const dots = Array.from(dotsWrap.children);
-
-    function render() {
-      slides.forEach((s, i) => s.style.opacity = i === idx ? "1" : "0");
-      dots.forEach((d, i) => {
-        d.style.width = i === idx ? "16px" : "6px";
-        d.style.background = i === idx ? "var(--color-accent)" : "rgba(255,255,255,.7)";
-      });
-    }
-    function go(i) { idx = (i + slides.length) % slides.length; render(); restart(); }
-    function next() { go(idx + 1); }
-    function restart() { clearInterval(timer); timer = setInterval(next, 4000); }
-
-    root.querySelectorAll(".slider-btn").forEach(btn =>
-      btn.addEventListener("click", () => go(idx + Number(btn.dataset.dir)))
-    );
-    root.addEventListener("mouseenter", () => clearInterval(timer));
-    root.addEventListener("mouseleave", restart);
-
-    render();
-    restart();
-  })();
-</script>
+<script src="app.js" defer></script>
 </body>
 </html>
